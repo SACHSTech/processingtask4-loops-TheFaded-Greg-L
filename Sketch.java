@@ -2,7 +2,7 @@ import processing.core.PApplet;
 
 /**
 *
-* A processing task in that the goal is to have each quadrant of the square screen do something different using loops.
+* A program Sketch.java in that the goal is to have each quadrant of the square screen do something different using loops.
 * @author: G. Lui
 *
 */
@@ -103,7 +103,7 @@ public class Sketch extends PApplet {
     float circleRow = 0;
     float circleColumn = 0;
     float circleSize = quadrantBoundaries / 10;
-    
+
     for(int i = 1; i <= 5; i++){
 
       for(int j = 1; j <= 5; j++){
